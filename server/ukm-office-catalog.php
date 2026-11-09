@@ -12,7 +12,7 @@ final class UKM_Office_Catalog {
     static function install(){
         if(get_option('ukm_office_roles_schema')==='1')return;
         foreach(self::roles() as $key=>$def){add_role($key,$def['name'],$def['caps']);$role=get_role($key);foreach($def['caps'] as $cap=>$grant)$role->add_cap($cap);}
-        $initial=get_user_by('login','catalog_editor');if($initial){$initial->set_role('ukm_catalog_manager');update_user_meta($initial->ID,'_ukm_office_member',1);}
+        // Account privileges are assigned by the explicit installer, never by a matching login.
         update_option('ukm_office_roles_schema','1',false);
     }
     static function boot(){
