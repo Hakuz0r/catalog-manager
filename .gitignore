@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.local
+pass.txt
+*.pem
+*.key
+stage-login.json
+playwright-report/
+test-results/
+.DS_Store

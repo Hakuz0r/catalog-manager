@@ -1,0 +1,12 @@
+<script setup lang="ts">
+import { computed, onMounted, ref, watch } from 'vue'
+import { getTerms, type Term } from '../domain/api'
+import type { Attribute } from '../domain/catalog'
+const props=defineProps<{modelValue:Attribute;index:number;server:boolean}>();const emit=defineEmits<{'update:modelValue':[value:Attribute]}>()
+const search=ref('');const terms=ref<Term[]>([]);const error=ref('');let generation=0;let timer:ReturnType<typeof setTimeout>
+const values=computed({get:()=>props.modelValue.values,set:(value:string[])=>emit('update:modelValue',{...props.modelValue,values:value})})
+const options=computed(()=>[...new Set([...props.modelValue.values,...terms.value.map(t=>t.name)])])
+async function load(){if(!props.server||!props.modelValue.taxonomy||!props.modelValue.id)return;const g=++generation;error.value='';try{const page=await getTerms(props.modelValue.id,search.value);if(g===generation)terms.value=page.items}catch(e){if(g===generation)error.value=e instanceof Error?e.message:'Ошибка справочника'}}
+watch(search,()=>{clearTimeout(timer);timer=setTimeout(load,250)});onMounted(load)
+</script>
+<template><div class="attribute-fields"><label>Характеристика<input :value="modelValue.name" :readonly="!!modelValue.taxonomy" :aria-label="`Название характеристики ${index+1}`" @input="emit('update:modelValue',{...modelValue,name:($event.target as HTMLInputElement).value})" /><small v-if="modelValue.taxonomy" class="field-hint">Общий справочник</small></label><div v-if="server&&modelValue.taxonomy"><label>Поиск по справочнику<input v-model="search" :aria-label="`Поиск значений характеристики ${index+1}`" placeholder="Найти допустимое значение" /></label><label>Значения<select v-model="values" multiple size="4" :aria-label="`Значения характеристики ${index+1}`"><option v-for="value in options" :key="value" :value="value">{{ value }}</option></select><span class="field-hint">Для нескольких значений удерживайте Cmd или Ctrl. Новые значения добавляются на странице «Характеристики».</span></label><p v-if="error" class="error-notice">{{ error }}</p></div><label v-else>Значения<textarea :value="modelValue.values.join('\n')" rows="1" :aria-label="`Значения характеристики ${index+1}`" @input="emit('update:modelValue',{...modelValue,values:($event.target as HTMLTextAreaElement).value.split('\n')})" /><span class="field-hint">Каждое значение — с новой строки</span></label></div></template>

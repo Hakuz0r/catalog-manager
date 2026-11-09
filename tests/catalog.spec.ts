@@ -1,0 +1,90 @@
+import { test, expect } from '@playwright/test'
+import { readSavedState, validateDraft, filterProducts, draftOf } from '../src/domain/catalog'
+import fs from 'node:fs'
+const raw = JSON.parse(fs.readFileSync(new URL('../src/data/catalog-snapshot.json', import.meta.url), 'utf8'))
+import type { Product, Category } from '../src/domain/catalog'
+const products = raw.products as unknown as Product[]
+const categories = raw.categories as Category[]
+test('rejects corrupt and stale persisted data', () => {
+  expect(readSavedState('{oops', products, categories).drafts).toEqual({})
+  const invalid = { version: 1, drafts: { 999999: draftOf(products[0]!), [products[0]!.id]: { ...draftOf(products[0]!), basePrice: -5 } }, changes: [] }
+  expect(readSavedState(JSON.stringify(invalid), products, categories).drafts).toEqual({})
+  expect(validateDraft({ ...draftOf(products[0]!), basePrice: 0 }, categories)).not.toEqual([])
+})
+test('searches attributes, preserves no-price selection and validates duplicate fields', () => {
+  const sample = products.find(p => p.basePrice === null)!
+  expect(filterProducts(products, String(sample.id), null, 'missing')).toContainEqual(sample)
+  const draft = draftOf(products[0]!); draft.attributes = [{ name: 'ГОСТ', values: ['1'] }, { name: 'гост', values: ['2'] }]
+  expect(validateDraft(draft, categories)).not.toEqual([])
+})
+test.beforeEach(async ({ page }) => { await page.goto('/?demo=1'); await page.evaluate(() => localStorage.clear()); await page.reload() })
+test('edits a draft, reloads it, and reverts without changing original snapshot', async ({ page }) => {
+  const errors: string[] = []; page.on('pageerror', e => errors.push(e.message))
+  const firstName = await page.locator('.product-name').first().innerText()
+  await page.locator('.product-name').first().click()
+  await page.getByLabel('Название товара').fill(firstName + ' Тестовый черновик')
+  await page.getByRole('button', { name: 'Сохранить черновик', exact: true }).click()
+  await expect(page.getByRole('status')).toContainText('Черновик сохранён')
+  await page.reload()
+  await page.getByLabel('Поиск товаров').fill('Тестовый черновик')
+  await expect(page.locator('.product-name')).toHaveCount(1)
+  await page.getByRole('button', { name: 'История изменений', exact: true }).click()
+  await page.getByRole('button', { name: 'Отменить правку', exact: true }).click()
+  await expect(page.getByText('Отменено', { exact: true })).toBeVisible()
+  await page.getByRole('button', { name: 'Товары', exact: true }).click()
+  await expect(page.getByText('Товары не найдены', { exact: true })).toBeVisible()
+  expect(errors).toEqual([])
+})
+test('search and page survive opening an editor; cancel warns about unsaved edits', async ({ page }) => {
+  await page.getByLabel('Раздел каталога').selectOption('1410')
+  await page.getByRole('button', { name: 'Следующая страница' }).click()
+  await page.locator('.product-name').first().click()
+  await page.getByLabel('Название товара').fill('Не сохранять')
+  page.once('dialog', d => d.dismiss())
+  await page.getByRole('button', { name: 'К списку товаров' }).click()
+  await expect(page.getByLabel('Название товара')).toBeVisible()
+  page.once('dialog', d => d.accept())
+  await page.getByRole('button', { name: 'К списку товаров' }).click()
+  await expect(page.locator('.pagination')).toContainText('2 / 3')
+})
+test('bulk price edit requires preview, can be undone in order, and calculations are reactive', async ({ page }) => {
+  await page.getByLabel('Выбрать товары на странице').check()
+  await page.getByRole('button', { name: 'Изменить цены', exact: true }).click()
+  await expect(page.getByRole('button', { name: /Сохранить \d+ черновиков/ })).toHaveCount(0)
+  await page.getByLabel('Изменение цены, %').fill('-100')
+  await page.getByRole('button', { name: 'Проверить изменения' }).click()
+  await expect(page.getByRole('alert')).toContainText('больше −100')
+  await page.getByLabel('Изменение цены, %').fill('5')
+  await page.getByRole('button', { name: 'Проверить изменения' }).click()
+  await page.getByRole('button', { name: /Сохранить \d+ черновиков/ }).click()
+  await expect(page.locator('.products-table .badge.amber')).toHaveCount(products.filter(p=>p.categoryId===20348).sort((a,b)=>a.name.localeCompare(b.name,'ru',{numeric:true})).slice(0,10).filter(p=>p.basePrice!==null).length)
+  await page.locator('.products-table tr').filter({has:page.locator('.badge.amber')}).first().locator('.product-name').click()
+  await page.getByRole('tab', { name: 'Цены', exact: true }).click()
+  const oldPrices = await page.locator('.calculated-prices').innerText()
+  await page.getByLabel('Цена товара, ₽').fill('1000')
+  await expect(page.locator('.calculated-prices')).not.toHaveText(oldPrices)
+})
+test('desktop and mobile pages have no horizontal overflow', async ({ page }) => {
+  await page.setViewportSize({ width: 1536, height: 960 })
+  await page.screenshot({ path: 'test-results/desktop-products.png', fullPage: true })
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true)
+  await page.locator('.product-name').first().click()
+  await page.screenshot({ path: 'test-results/desktop-editor.png', fullPage: true })
+  await page.getByRole('tab', { name: 'Цены', exact: true }).click()
+  await page.screenshot({ path: 'test-results/desktop-prices.png', fullPage: true })
+  for (const width of [390, 320]) {
+    await page.setViewportSize({ width, height: 844 })
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true)
+    await page.getByRole('button', { name: 'К списку товаров' }).click()
+    await page.getByLabel('Открыть меню').click()
+    await expect(page.getByRole('navigation')).toBeVisible()
+    await page.getByRole('button', { name: 'Категории', exact: true }).click()
+    await expect(page.getByRole('heading', { name: 'Категории', exact: true })).toBeVisible()
+    await page.getByLabel('Открыть меню').click()
+    await page.getByRole('button', { name: 'Товары', exact: true }).click()
+    await page.screenshot({ path: `test-results/mobile-${width}.png`, fullPage: true })
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true)
+    await page.locator('.product-name').first().click()
+    await page.getByRole('tab', { name: 'Цены', exact: true }).click()
+  }
+})

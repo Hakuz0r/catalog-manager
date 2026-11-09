@@ -1,0 +1,2924 @@
+{
+  "meta": {
+    "source": "Синтетические демонстрационные данные",
+    "auditedAt": "2026-11-09",
+    "catalogTotal": 60,
+    "sampleSize": 60,
+    "mode": "demo"
+  },
+  "categories": [
+    {
+      "id": 20348,
+      "name": "Котельные трубы",
+      "parent": 0,
+      "catalogCount": 10,
+      "sampleCount": 10
+    },
+    {
+      "id": 1410,
+      "name": "Арматура",
+      "parent": 0,
+      "catalogCount": 25,
+      "sampleCount": 25
+    },
+    {
+      "id": 30000,
+      "name": "Листовой прокат",
+      "parent": 0,
+      "catalogCount": 25,
+      "sampleCount": 25
+    }
+  ],
+  "products": [
+    {
+      "id": 900001,
+      "name": "Труба демонстрационная 25×3 мм",
+      "sku": "DEMO-0001",
+      "categoryId": 20348,
+      "url": "#",
+      "basePrice": null,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "25"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {},
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.0,
+        "tonna": 0.002,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.0,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900002,
+      "name": "Труба демонстрационная 26×3 мм",
+      "sku": "DEMO-0002",
+      "categoryId": 20348,
+      "url": "#",
+      "basePrice": 212.5,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "26"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 212.5,
+        "kg": 101.19,
+        "tonna": 101190.48,
+        "sht": 1275.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.1,
+        "tonna": 0.0021000000000000003,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.1,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900003,
+      "name": "Труба демонстрационная 27×3 мм",
+      "sku": "DEMO-0003",
+      "categoryId": 20348,
+      "url": "#",
+      "basePrice": 225.0,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "27"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 225.0,
+        "kg": 102.27,
+        "tonna": 102272.73,
+        "sht": 1350.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.2,
+        "tonna": 0.0022,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.2,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900004,
+      "name": "Труба демонстрационная 28×3 мм",
+      "sku": "DEMO-0004",
+      "categoryId": 20348,
+      "url": "#",
+      "basePrice": 237.5,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "28"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 237.5,
+        "kg": 103.26,
+        "tonna": 103260.87,
+        "sht": 1425.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.3,
+        "tonna": 0.0023,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.3,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900005,
+      "name": "Труба демонстрационная 29×3 мм",
+      "sku": "DEMO-0005",
+      "categoryId": 20348,
+      "url": "#",
+      "basePrice": 250.0,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "29"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 250.0,
+        "kg": 104.17,
+        "tonna": 104166.67,
+        "sht": 1500.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.4,
+        "tonna": 0.0024,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.4,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900006,
+      "name": "Труба демонстрационная 30×3 мм",
+      "sku": "DEMO-0006",
+      "categoryId": 20348,
+      "url": "#",
+      "basePrice": 262.5,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "30"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 262.5,
+        "kg": 105.0,
+        "tonna": 105000.0,
+        "sht": 1575.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.5,
+        "tonna": 0.0025,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.5,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900007,
+      "name": "Труба демонстрационная 31×3 мм",
+      "sku": "DEMO-0007",
+      "categoryId": 20348,
+      "url": "#",
+      "basePrice": 275.0,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "31"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 275.0,
+        "kg": 105.77,
+        "tonna": 105769.23,
+        "sht": 1650.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.6,
+        "tonna": 0.0026,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.6,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900008,
+      "name": "Труба демонстрационная 32×3 мм",
+      "sku": "DEMO-0008",
+      "categoryId": 20348,
+      "url": "#",
+      "basePrice": null,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "32"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {},
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.7,
+        "tonna": 0.0027,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.7,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900009,
+      "name": "Труба демонстрационная 33×3 мм",
+      "sku": "DEMO-0009",
+      "categoryId": 20348,
+      "url": "#",
+      "basePrice": 300.0,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "33"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 300.0,
+        "kg": 107.14,
+        "tonna": 107142.86,
+        "sht": 1800.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.8,
+        "tonna": 0.0028,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.8,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900010,
+      "name": "Труба демонстрационная 34×3 мм",
+      "sku": "DEMO-0010",
+      "categoryId": 20348,
+      "url": "#",
+      "basePrice": 312.5,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "34"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 312.5,
+        "kg": 107.76,
+        "tonna": 107758.62,
+        "sht": 1875.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.9,
+        "tonna": 0.0029,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.9,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900011,
+      "name": "Арматура: образец 01",
+      "sku": "DEMO-0011",
+      "categoryId": 1410,
+      "url": "#",
+      "basePrice": null,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "25"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {},
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.0,
+        "tonna": 0.002,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.0,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900012,
+      "name": "Арматура: образец 02",
+      "sku": "DEMO-0012",
+      "categoryId": 1410,
+      "url": "#",
+      "basePrice": 212.5,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "26"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 212.5,
+        "kg": 101.19,
+        "tonna": 101190.48,
+        "sht": 1275.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.1,
+        "tonna": 0.0021000000000000003,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.1,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900013,
+      "name": "Арматура: образец 03",
+      "sku": "DEMO-0013",
+      "categoryId": 1410,
+      "url": "#",
+      "basePrice": 225.0,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "27"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 225.0,
+        "kg": 102.27,
+        "tonna": 102272.73,
+        "sht": 1350.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.2,
+        "tonna": 0.0022,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.2,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900014,
+      "name": "Арматура: образец 04",
+      "sku": "DEMO-0014",
+      "categoryId": 1410,
+      "url": "#",
+      "basePrice": 237.5,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "28"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 237.5,
+        "kg": 103.26,
+        "tonna": 103260.87,
+        "sht": 1425.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.3,
+        "tonna": 0.0023,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.3,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900015,
+      "name": "Арматура: образец 05",
+      "sku": "DEMO-0015",
+      "categoryId": 1410,
+      "url": "#",
+      "basePrice": 250.0,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "29"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 250.0,
+        "kg": 104.17,
+        "tonna": 104166.67,
+        "sht": 1500.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.4,
+        "tonna": 0.0024,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.4,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900016,
+      "name": "Арматура: образец 06",
+      "sku": "DEMO-0016",
+      "categoryId": 1410,
+      "url": "#",
+      "basePrice": 262.5,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "30"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 262.5,
+        "kg": 105.0,
+        "tonna": 105000.0,
+        "sht": 1575.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.5,
+        "tonna": 0.0025,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.5,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900017,
+      "name": "Арматура: образец 07",
+      "sku": "DEMO-0017",
+      "categoryId": 1410,
+      "url": "#",
+      "basePrice": 275.0,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "31"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 275.0,
+        "kg": 105.77,
+        "tonna": 105769.23,
+        "sht": 1650.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.6,
+        "tonna": 0.0026,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.6,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900018,
+      "name": "Арматура: образец 08",
+      "sku": "DEMO-0018",
+      "categoryId": 1410,
+      "url": "#",
+      "basePrice": null,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "32"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {},
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.7,
+        "tonna": 0.0027,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.7,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900019,
+      "name": "Арматура: образец 09",
+      "sku": "DEMO-0019",
+      "categoryId": 1410,
+      "url": "#",
+      "basePrice": 300.0,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "33"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 300.0,
+        "kg": 107.14,
+        "tonna": 107142.86,
+        "sht": 1800.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.8,
+        "tonna": 0.0028,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.8,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900020,
+      "name": "Арматура: образец 10",
+      "sku": "DEMO-0020",
+      "categoryId": 1410,
+      "url": "#",
+      "basePrice": 312.5,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "34"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 312.5,
+        "kg": 107.76,
+        "tonna": 107758.62,
+        "sht": 1875.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.9,
+        "tonna": 0.0029,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.9,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900021,
+      "name": "Арматура: образец 11",
+      "sku": "DEMO-0021",
+      "categoryId": 1410,
+      "url": "#",
+      "basePrice": 325.0,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "35"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 325.0,
+        "kg": 108.33,
+        "tonna": 108333.33,
+        "sht": 1950.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 3.0,
+        "tonna": 0.003,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 3.0,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900022,
+      "name": "Арматура: образец 12",
+      "sku": "DEMO-0022",
+      "categoryId": 1410,
+      "url": "#",
+      "basePrice": 337.5,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "36"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 337.5,
+        "kg": 108.87,
+        "tonna": 108870.97,
+        "sht": 2025.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 3.1,
+        "tonna": 0.0031,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 3.1,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900023,
+      "name": "Арматура: образец 13",
+      "sku": "DEMO-0023",
+      "categoryId": 1410,
+      "url": "#",
+      "basePrice": 350.0,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "37"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 350.0,
+        "kg": 109.38,
+        "tonna": 109375.0,
+        "sht": 2100.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 3.2,
+        "tonna": 0.0032,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 3.2,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900024,
+      "name": "Арматура: образец 14",
+      "sku": "DEMO-0024",
+      "categoryId": 1410,
+      "url": "#",
+      "basePrice": 362.5,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "38"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 362.5,
+        "kg": 109.85,
+        "tonna": 109848.48,
+        "sht": 2175.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 3.3,
+        "tonna": 0.0033,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 3.3,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900025,
+      "name": "Арматура: образец 15",
+      "sku": "DEMO-0025",
+      "categoryId": 1410,
+      "url": "#",
+      "basePrice": null,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "39"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {},
+      "unitFactors": {
+        "metr": 1,
+        "kg": 3.4,
+        "tonna": 0.0034,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 3.4,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900026,
+      "name": "Арматура: образец 16",
+      "sku": "DEMO-0026",
+      "categoryId": 1410,
+      "url": "#",
+      "basePrice": 387.5,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "40"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 387.5,
+        "kg": 110.71,
+        "tonna": 110714.29,
+        "sht": 2325.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 3.5,
+        "tonna": 0.0035,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 3.5,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900027,
+      "name": "Арматура: образец 17",
+      "sku": "DEMO-0027",
+      "categoryId": 1410,
+      "url": "#",
+      "basePrice": 400.0,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "41"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 400.0,
+        "kg": 111.11,
+        "tonna": 111111.11,
+        "sht": 2400.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 3.6,
+        "tonna": 0.0036,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 3.6,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900028,
+      "name": "Арматура: образец 18",
+      "sku": "DEMO-0028",
+      "categoryId": 1410,
+      "url": "#",
+      "basePrice": 412.5,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "42"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 412.5,
+        "kg": 111.49,
+        "tonna": 111486.49,
+        "sht": 2475.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 3.7,
+        "tonna": 0.0037,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 3.7,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900029,
+      "name": "Арматура: образец 19",
+      "sku": "DEMO-0029",
+      "categoryId": 1410,
+      "url": "#",
+      "basePrice": 425.0,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "43"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 425.0,
+        "kg": 111.84,
+        "tonna": 111842.11,
+        "sht": 2550.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 3.8,
+        "tonna": 0.0038,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 3.8,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900030,
+      "name": "Арматура: образец 20",
+      "sku": "DEMO-0030",
+      "categoryId": 1410,
+      "url": "#",
+      "basePrice": 437.5,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "44"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 437.5,
+        "kg": 112.18,
+        "tonna": 112179.49,
+        "sht": 2625.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 3.9,
+        "tonna": 0.0039,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 3.9,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900031,
+      "name": "Арматура: образец 21",
+      "sku": "DEMO-0031",
+      "categoryId": 1410,
+      "url": "#",
+      "basePrice": 450.0,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "45"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 450.0,
+        "kg": 112.5,
+        "tonna": 112500.0,
+        "sht": 2700.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 4.0,
+        "tonna": 0.004,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 4.0,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900032,
+      "name": "Арматура: образец 22",
+      "sku": "DEMO-0032",
+      "categoryId": 1410,
+      "url": "#",
+      "basePrice": null,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "46"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {},
+      "unitFactors": {
+        "metr": 1,
+        "kg": 4.1,
+        "tonna": 0.0040999999999999995,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 4.1,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900033,
+      "name": "Арматура: образец 23",
+      "sku": "DEMO-0033",
+      "categoryId": 1410,
+      "url": "#",
+      "basePrice": 475.0,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "47"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 475.0,
+        "kg": 113.1,
+        "tonna": 113095.24,
+        "sht": 2850.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 4.2,
+        "tonna": 0.004200000000000001,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 4.2,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900034,
+      "name": "Арматура: образец 24",
+      "sku": "DEMO-0034",
+      "categoryId": 1410,
+      "url": "#",
+      "basePrice": 487.5,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "48"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 487.5,
+        "kg": 113.37,
+        "tonna": 113372.09,
+        "sht": 2925.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 4.3,
+        "tonna": 0.0043,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 4.3,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900035,
+      "name": "Арматура: образец 25",
+      "sku": "DEMO-0035",
+      "categoryId": 1410,
+      "url": "#",
+      "basePrice": 500.0,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "49"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 500.0,
+        "kg": 113.64,
+        "tonna": 113636.36,
+        "sht": 3000.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 4.4,
+        "tonna": 0.0044,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 4.4,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900036,
+      "name": "Листовой прокат: образец 01",
+      "sku": "DEMO-0036",
+      "categoryId": 30000,
+      "url": "#",
+      "basePrice": null,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "25"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {},
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.0,
+        "tonna": 0.002,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.0,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900037,
+      "name": "Листовой прокат: образец 02",
+      "sku": "DEMO-0037",
+      "categoryId": 30000,
+      "url": "#",
+      "basePrice": 212.5,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "26"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 212.5,
+        "kg": 101.19,
+        "tonna": 101190.48,
+        "sht": 1275.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.1,
+        "tonna": 0.0021000000000000003,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.1,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900038,
+      "name": "Листовой прокат: образец 03",
+      "sku": "DEMO-0038",
+      "categoryId": 30000,
+      "url": "#",
+      "basePrice": 225.0,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "27"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 225.0,
+        "kg": 102.27,
+        "tonna": 102272.73,
+        "sht": 1350.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.2,
+        "tonna": 0.0022,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.2,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900039,
+      "name": "Листовой прокат: образец 04",
+      "sku": "DEMO-0039",
+      "categoryId": 30000,
+      "url": "#",
+      "basePrice": 237.5,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "28"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 237.5,
+        "kg": 103.26,
+        "tonna": 103260.87,
+        "sht": 1425.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.3,
+        "tonna": 0.0023,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.3,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900040,
+      "name": "Листовой прокат: образец 05",
+      "sku": "DEMO-0040",
+      "categoryId": 30000,
+      "url": "#",
+      "basePrice": 250.0,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "29"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 250.0,
+        "kg": 104.17,
+        "tonna": 104166.67,
+        "sht": 1500.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.4,
+        "tonna": 0.0024,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.4,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900041,
+      "name": "Листовой прокат: образец 06",
+      "sku": "DEMO-0041",
+      "categoryId": 30000,
+      "url": "#",
+      "basePrice": 262.5,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "30"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 262.5,
+        "kg": 105.0,
+        "tonna": 105000.0,
+        "sht": 1575.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.5,
+        "tonna": 0.0025,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.5,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900042,
+      "name": "Листовой прокат: образец 07",
+      "sku": "DEMO-0042",
+      "categoryId": 30000,
+      "url": "#",
+      "basePrice": 275.0,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "31"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 275.0,
+        "kg": 105.77,
+        "tonna": 105769.23,
+        "sht": 1650.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.6,
+        "tonna": 0.0026,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.6,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900043,
+      "name": "Листовой прокат: образец 08",
+      "sku": "DEMO-0043",
+      "categoryId": 30000,
+      "url": "#",
+      "basePrice": null,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "32"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {},
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.7,
+        "tonna": 0.0027,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.7,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900044,
+      "name": "Листовой прокат: образец 09",
+      "sku": "DEMO-0044",
+      "categoryId": 30000,
+      "url": "#",
+      "basePrice": 300.0,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "33"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 300.0,
+        "kg": 107.14,
+        "tonna": 107142.86,
+        "sht": 1800.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.8,
+        "tonna": 0.0028,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.8,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900045,
+      "name": "Листовой прокат: образец 10",
+      "sku": "DEMO-0045",
+      "categoryId": 30000,
+      "url": "#",
+      "basePrice": 312.5,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "34"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 312.5,
+        "kg": 107.76,
+        "tonna": 107758.62,
+        "sht": 1875.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 2.9,
+        "tonna": 0.0029,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 2.9,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900046,
+      "name": "Листовой прокат: образец 11",
+      "sku": "DEMO-0046",
+      "categoryId": 30000,
+      "url": "#",
+      "basePrice": 325.0,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "35"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 325.0,
+        "kg": 108.33,
+        "tonna": 108333.33,
+        "sht": 1950.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 3.0,
+        "tonna": 0.003,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 3.0,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900047,
+      "name": "Листовой прокат: образец 12",
+      "sku": "DEMO-0047",
+      "categoryId": 30000,
+      "url": "#",
+      "basePrice": 337.5,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "36"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 337.5,
+        "kg": 108.87,
+        "tonna": 108870.97,
+        "sht": 2025.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 3.1,
+        "tonna": 0.0031,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 3.1,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900048,
+      "name": "Листовой прокат: образец 13",
+      "sku": "DEMO-0048",
+      "categoryId": 30000,
+      "url": "#",
+      "basePrice": 350.0,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "37"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 350.0,
+        "kg": 109.38,
+        "tonna": 109375.0,
+        "sht": 2100.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 3.2,
+        "tonna": 0.0032,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 3.2,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900049,
+      "name": "Листовой прокат: образец 14",
+      "sku": "DEMO-0049",
+      "categoryId": 30000,
+      "url": "#",
+      "basePrice": 362.5,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "38"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 362.5,
+        "kg": 109.85,
+        "tonna": 109848.48,
+        "sht": 2175.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 3.3,
+        "tonna": 0.0033,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 3.3,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900050,
+      "name": "Листовой прокат: образец 15",
+      "sku": "DEMO-0050",
+      "categoryId": 30000,
+      "url": "#",
+      "basePrice": null,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "39"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {},
+      "unitFactors": {
+        "metr": 1,
+        "kg": 3.4,
+        "tonna": 0.0034,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 3.4,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900051,
+      "name": "Листовой прокат: образец 16",
+      "sku": "DEMO-0051",
+      "categoryId": 30000,
+      "url": "#",
+      "basePrice": 387.5,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "40"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 387.5,
+        "kg": 110.71,
+        "tonna": 110714.29,
+        "sht": 2325.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 3.5,
+        "tonna": 0.0035,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 3.5,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900052,
+      "name": "Листовой прокат: образец 17",
+      "sku": "DEMO-0052",
+      "categoryId": 30000,
+      "url": "#",
+      "basePrice": 400.0,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "41"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 400.0,
+        "kg": 111.11,
+        "tonna": 111111.11,
+        "sht": 2400.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 3.6,
+        "tonna": 0.0036,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 3.6,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900053,
+      "name": "Листовой прокат: образец 18",
+      "sku": "DEMO-0053",
+      "categoryId": 30000,
+      "url": "#",
+      "basePrice": 412.5,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "42"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 412.5,
+        "kg": 111.49,
+        "tonna": 111486.49,
+        "sht": 2475.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 3.7,
+        "tonna": 0.0037,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 3.7,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900054,
+      "name": "Листовой прокат: образец 19",
+      "sku": "DEMO-0054",
+      "categoryId": 30000,
+      "url": "#",
+      "basePrice": 425.0,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "43"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 425.0,
+        "kg": 111.84,
+        "tonna": 111842.11,
+        "sht": 2550.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 3.8,
+        "tonna": 0.0038,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 3.8,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900055,
+      "name": "Листовой прокат: образец 20",
+      "sku": "DEMO-0055",
+      "categoryId": 30000,
+      "url": "#",
+      "basePrice": 437.5,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "44"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 437.5,
+        "kg": 112.18,
+        "tonna": 112179.49,
+        "sht": 2625.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 3.9,
+        "tonna": 0.0039,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 3.9,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900056,
+      "name": "Листовой прокат: образец 21",
+      "sku": "DEMO-0056",
+      "categoryId": 30000,
+      "url": "#",
+      "basePrice": 450.0,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "45"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 450.0,
+        "kg": 112.5,
+        "tonna": 112500.0,
+        "sht": 2700.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 4.0,
+        "tonna": 0.004,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 4.0,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900057,
+      "name": "Листовой прокат: образец 22",
+      "sku": "DEMO-0057",
+      "categoryId": 30000,
+      "url": "#",
+      "basePrice": null,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "46"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {},
+      "unitFactors": {
+        "metr": 1,
+        "kg": 4.1,
+        "tonna": 0.0040999999999999995,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 4.1,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900058,
+      "name": "Листовой прокат: образец 23",
+      "sku": "DEMO-0058",
+      "categoryId": 30000,
+      "url": "#",
+      "basePrice": 475.0,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "47"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 475.0,
+        "kg": 113.1,
+        "tonna": 113095.24,
+        "sht": 2850.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 4.2,
+        "tonna": 0.004200000000000001,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 4.2,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900059,
+      "name": "Листовой прокат: образец 24",
+      "sku": "DEMO-0059",
+      "categoryId": 30000,
+      "url": "#",
+      "basePrice": 487.5,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "48"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 487.5,
+        "kg": 113.37,
+        "tonna": 113372.09,
+        "sht": 2925.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 4.3,
+        "tonna": 0.0043,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 4.3,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    },
+    {
+      "id": 900060,
+      "name": "Листовой прокат: образец 25",
+      "sku": "DEMO-0060",
+      "categoryId": 30000,
+      "url": "#",
+      "basePrice": 500.0,
+      "baseUnit": "metr",
+      "status": "publish",
+      "description": "Вымышленный товар для демонстрации интерфейса.",
+      "shortDescription": "Демонстрационный образец",
+      "attributes": [
+        {
+          "name": "Диаметр, мм",
+          "values": [
+            "49"
+          ]
+        },
+        {
+          "name": "Материал",
+          "values": [
+            "Сталь"
+          ]
+        },
+        {
+          "name": "Длина, м",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "calculatedPrices": {
+        "metr": 500.0,
+        "kg": 113.64,
+        "tonna": 113636.36,
+        "sht": 3000.0
+      },
+      "unitFactors": {
+        "metr": 1,
+        "kg": 4.4,
+        "tonna": 0.0044,
+        "sht": 0.16666666666666666
+      },
+      "coefficients": {
+        "kg_per_metre": 4.4,
+        "metres_per_piece": 6
+      },
+      "calculationAvailable": true
+    }
+  ]
+}
